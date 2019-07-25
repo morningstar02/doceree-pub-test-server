@@ -1,0 +1,14 @@
+{
+    "development": {
+        "PORT": 8080,
+        "MONGODB_URI": "mongodb+srv://user-2020:corvette22@samael-morningstar-zuyfw.mongodb.net/doc_publisher_1",
+        "JWT_SECRET": "MYSECRET#1212",
+        "JWT_EXP": "10m"
+    },
+    "production": {
+        "PORT": 80,
+        "MONGODB_URI": "",
+        "JWT_SECRET": "MYSECRET#1212",
+        "JWT_EXP": "10m"
+    }
+}
